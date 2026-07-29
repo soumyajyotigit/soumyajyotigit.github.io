@@ -1,10 +1,10 @@
 import "./globals.css";
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
+import Navbar from "@/components/ui/Navbar";
+import Footer from "@/components/ui/Footer";
 
 export const metadata = {
-  title: "Soumyajyoti | Portfolio",
-  description: "Cloud Native AI Engineer Portfolio",
+  title: "Soumyajyoti Karmakar | Full-Stack Developer",
+  description: "Portfolio of Soumyajyoti Karmakar, a full-stack developer building resilient, cloud-native products.",
 };
 
 export default function RootLayout({
@@ -14,7 +14,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="bg-slate-950 text-white">
+      <body id="top" className="bg-[#070811] text-slate-100">
         <Navbar />
         {children}
         <Footer />

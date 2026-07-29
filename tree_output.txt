@@ -1,26 +1,33 @@
 Folder PATH listing for volume Data
-Volume serial number is 00000054 7864:F588
+Volume serial number is 000000B0 7864:F588
 D:.
 +---.next
 ¦   +---dev
-¦   ¦   +---build
-¦   ¦   ¦   +---chunks
-¦   ¦   +---cache
-¦   ¦   ¦   +---turbopack
-¦   ¦   ¦       +---ee6e79b1
-¦   ¦   +---logs
-¦   ¦   +---server
-¦   ¦   ¦   +---app
-¦   ¦   ¦   ¦   +---page
-¦   ¦   ¦   +---chunks
-¦   ¦   ¦       +---ssr
-¦   ¦   +---static
-¦   ¦   ¦   +---chunks
-¦   ¦   ¦   +---development
-¦   ¦   ¦   +---media
-¦   ¦   +---types
-¦   +---types
+¦       +---build
+¦       ¦   +---chunks
+¦       +---cache
+¦       ¦   +---turbopack
+¦       ¦       +---ee6e79b1
+¦       +---logs
+¦       +---server
+¦       ¦   +---app
+¦       ¦   ¦   +---page
+¦       ¦   ¦   +---_not-found
+¦       ¦   ¦       +---page
+¦       ¦   +---chunks
+¦       ¦       +---ssr
+¦       +---static
+¦       ¦   +---chunks
+¦       ¦   +---development
+¦       ¦   +---media
+¦       +---types
 +---app
+¦   +---about
+¦   +---blog
+¦   +---contact
+¦   +---projects
++---components
++---data
 +---node_modules
 ¦   +---.bin
 ¦   +---@alloc
@@ -796,6 +803,64 @@ D:.
 ¦   +---for-each
 ¦   ¦   +---.github
 ¦   ¦   +---test
+¦   +---framer-motion
+¦   ¦   +---client
+¦   ¦   +---dist
+¦   ¦   ¦   +---cjs
+¦   ¦   ¦   +---es
+¦   ¦   ¦       +---animation
+¦   ¦   ¦       ¦   +---animate
+¦   ¦   ¦       ¦   +---animators
+¦   ¦   ¦       ¦   ¦   +---waapi
+¦   ¦   ¦       ¦   +---hooks
+¦   ¦   ¦       ¦   +---optimized-appear
+¦   ¦   ¦       ¦   +---sequence
+¦   ¦   ¦       ¦   ¦   +---utils
+¦   ¦   ¦       ¦   +---utils
+¦   ¦   ¦       +---components
+¦   ¦   ¦       ¦   +---AnimatePresence
+¦   ¦   ¦       ¦   +---LayoutGroup
+¦   ¦   ¦       ¦   +---LazyMotion
+¦   ¦   ¦       ¦   +---MotionConfig
+¦   ¦   ¦       ¦   +---Reorder
+¦   ¦   ¦       ¦       +---utils
+¦   ¦   ¦       +---context
+¦   ¦   ¦       ¦   +---MotionContext
+¦   ¦   ¦       +---events
+¦   ¦   ¦       +---gestures
+¦   ¦   ¦       ¦   +---drag
+¦   ¦   ¦       ¦   ¦   +---utils
+¦   ¦   ¦       ¦   +---pan
+¦   ¦   ¦       +---motion
+¦   ¦   ¦       ¦   +---features
+¦   ¦   ¦       ¦   ¦   +---animation
+¦   ¦   ¦       ¦   ¦   +---layout
+¦   ¦   ¦       ¦   ¦   +---viewport
+¦   ¦   ¦       ¦   +---utils
+¦   ¦   ¦       +---projection
+¦   ¦   ¦       +---render
+¦   ¦   ¦       ¦   +---components
+¦   ¦   ¦       ¦   ¦   +---m
+¦   ¦   ¦       ¦   ¦   +---motion
+¦   ¦   ¦       ¦   +---dom
+¦   ¦   ¦       ¦   ¦   +---scroll
+¦   ¦   ¦       ¦   ¦   ¦   +---offsets
+¦   ¦   ¦       ¦   ¦   ¦   +---utils
+¦   ¦   ¦       ¦   ¦   +---utils
+¦   ¦   ¦       ¦   ¦   +---viewport
+¦   ¦   ¦       ¦   +---html
+¦   ¦   ¦       ¦   ¦   +---utils
+¦   ¦   ¦       ¦   +---svg
+¦   ¦   ¦       ¦       +---utils
+¦   ¦   ¦       +---utils
+¦   ¦   ¦       ¦   +---reduced-motion
+¦   ¦   ¦       +---value
+¦   ¦   ¦           +---scroll
+¦   ¦   ¦           +---use-will-change
+¦   ¦   +---dom
+¦   ¦   ¦   +---mini
+¦   ¦   +---m
+¦   ¦   +---mini
 ¦   +---function-bind
 ¦   ¦   +---.github
 ¦   ¦   +---test
@@ -998,6 +1063,14 @@ D:.
 ¦   +---lodash.merge
 ¦   +---loose-envify
 ¦   +---lru-cache
+¦   +---lucide-react
+¦   ¦   +---dist
+¦   ¦       +---cjs
+¦   ¦       +---esm
+¦   ¦           +---icons
+¦   ¦           +---shared
+¦   ¦               +---src
+¦   ¦                   +---utils
 ¦   +---magic-string
 ¦   ¦   +---dist
 ¦   +---math-intrinsics
@@ -1011,6 +1084,81 @@ D:.
 ¦   ¦   +---.github
 ¦   ¦   +---example
 ¦   ¦   +---test
+¦   +---motion-dom
+¦   ¦   +---dist
+¦   ¦       +---cjs
+¦   ¦       +---es
+¦   ¦           +---animation
+¦   ¦           ¦   +---animate
+¦   ¦           ¦   +---drivers
+¦   ¦           ¦   +---generators
+¦   ¦           ¦   ¦   +---utils
+¦   ¦           ¦   +---interfaces
+¦   ¦           ¦   +---keyframes
+¦   ¦           ¦   ¦   +---offsets
+¦   ¦           ¦   ¦   +---utils
+¦   ¦           ¦   +---optimized-appear
+¦   ¦           ¦   +---utils
+¦   ¦           ¦   +---waapi
+¦   ¦           ¦       +---easing
+¦   ¦           ¦       +---supports
+¦   ¦           ¦       +---utils
+¦   ¦           +---effects
+¦   ¦           ¦   +---attr
+¦   ¦           ¦   +---prop
+¦   ¦           ¦   +---style
+¦   ¦           ¦   +---svg
+¦   ¦           ¦   +---utils
+¦   ¦           +---events
+¦   ¦           +---frameloop
+¦   ¦           +---gestures
+¦   ¦           ¦   +---drag
+¦   ¦           ¦   ¦   +---state
+¦   ¦           ¦   +---press
+¦   ¦           ¦   ¦   +---utils
+¦   ¦           ¦   +---utils
+¦   ¦           +---layout
+¦   ¦           +---projection
+¦   ¦           ¦   +---animation
+¦   ¦           ¦   +---geometry
+¦   ¦           ¦   +---node
+¦   ¦           ¦   +---shared
+¦   ¦           ¦   +---styles
+¦   ¦           ¦   +---utils
+¦   ¦           +---render
+¦   ¦           ¦   +---dom
+¦   ¦           ¦   ¦   +---utils
+¦   ¦           ¦   +---html
+¦   ¦           ¦   ¦   +---utils
+¦   ¦           ¦   +---object
+¦   ¦           ¦   +---svg
+¦   ¦           ¦   ¦   +---utils
+¦   ¦           ¦   +---utils
+¦   ¦           ¦       +---reduced-motion
+¦   ¦           +---resize
+¦   ¦           +---scroll
+¦   ¦           +---stats
+¦   ¦           +---utils
+¦   ¦           ¦   +---mix
+¦   ¦           ¦   +---supports
+¦   ¦           +---value
+¦   ¦           ¦   +---types
+¦   ¦           ¦   ¦   +---color
+¦   ¦           ¦   ¦   +---complex
+¦   ¦           ¦   ¦   +---maps
+¦   ¦           ¦   ¦   +---numbers
+¦   ¦           ¦   ¦   +---utils
+¦   ¦           ¦   +---utils
+¦   ¦           ¦   +---will-change
+¦   ¦           +---view
+¦   ¦               +---utils
+¦   +---motion-utils
+¦   ¦   +---dist
+¦   ¦       +---cjs
+¦   ¦       +---es
+¦   ¦           +---easing
+¦   ¦               +---modifiers
+¦   ¦               +---utils
 ¦   +---ms
 ¦   +---nanoid
 ¦   ¦   +---.claude
@@ -1773,6 +1921,39 @@ D:.
 ¦   ¦   +---cjs
 ¦   +---react-dom
 ¦   ¦   +---cjs
+¦   +---react-icons
+¦   ¦   +---ai
+¦   ¦   +---bi
+¦   ¦   +---bs
+¦   ¦   +---cg
+¦   ¦   +---ci
+¦   ¦   +---di
+¦   ¦   +---fa
+¦   ¦   +---fa6
+¦   ¦   +---fc
+¦   ¦   +---fi
+¦   ¦   +---gi
+¦   ¦   +---go
+¦   ¦   +---gr
+¦   ¦   +---hi
+¦   ¦   +---hi2
+¦   ¦   +---im
+¦   ¦   +---io
+¦   ¦   +---io5
+¦   ¦   +---lia
+¦   ¦   +---lib
+¦   ¦   +---lu
+¦   ¦   +---md
+¦   ¦   +---pi
+¦   ¦   +---ri
+¦   ¦   +---rx
+¦   ¦   +---si
+¦   ¦   +---sl
+¦   ¦   +---tb
+¦   ¦   +---tfi
+¦   ¦   +---ti
+¦   ¦   +---vsc
+¦   ¦   +---wi
 ¦   +---react-is
 ¦   ¦   +---cjs
 ¦   ¦   +---umd
