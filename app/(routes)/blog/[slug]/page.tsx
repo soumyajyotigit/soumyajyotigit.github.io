@@ -4,6 +4,15 @@ type BlogPostPageProps = {
   };
 };
 
+export function generateStaticParams() {
+  return [
+    { slug: "devsecops-best-practices" },
+    { slug: "getting-started-with-nextjs-14" },
+    { slug: "kubernetes-for-beginners" },
+    { slug: "mastering-typescript" },
+  ];
+}
+
 export default function BlogPostPage({ params }: BlogPostPageProps) {
   return (
     <main className="min-h-screen px-6 pt-28">
